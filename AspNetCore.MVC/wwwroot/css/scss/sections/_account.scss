@@ -1,0 +1,105 @@
+.account{
+    padding-top: 40px;
+    .container{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap:150px;
+
+        .profile-pic{
+            border-right: 1px solid $gray-400;
+            padding-right: 10px;
+            display: flex;
+            flex-direction: column;
+
+            img{
+                width: 50%;
+                margin: 1px auto;
+                display: block;
+                padding-bottom: 20px;
+            }
+
+            p{
+                margin: 0px;
+                text-align: center;
+            }
+
+            .btn-theme{
+                padding: 12px 70px;
+                margin-top: 20px;
+            }
+
+            .logout{
+                padding-top: 10px;
+                padding-left: 13px;
+                text-decoration: none;
+                color: $gray-700;
+            }
+        }
+
+        .account-details{
+            display: flex;
+            flex-direction: column;
+            
+            p{
+                color: $info;
+            }
+
+            .form{
+                .colum{
+                    display: flex;
+                    gap: 20px;
+                }
+    
+                .detail-boxes{
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 20px;
+                    width: 50%;
+    
+                    input{
+                        height: 40px;
+                        width: 100%;
+                        border: 1px solid $gray-500;
+                        border-radius: 5px;
+                        padding: 5px 10px;
+                    }
+                }
+
+                .detail-boxes-bio{
+                    
+                    input{
+                        height: 100px;
+                        width: 100%;
+                        border: 1px solid $gray-500;
+                        border-radius: 5px;
+                        padding: 5px 10px;
+                    }
+                }
+                .detail-boxes-address{
+                    padding-bottom: 20px;
+                    input{
+                        height: 40px;
+                        width: 100%;
+                        border: 1px solid $gray-500;
+                        border-radius: 5px;
+                        padding: 5px 10px;
+                    }
+                }
+                .button{
+                    display: flex;
+                    gap: 20px;
+                    padding: 30px 0px;
+                    border-bottom: 1px solid $gray-400;
+                }
+
+                .button1{
+                    display: flex;
+                    gap: 20px;
+                    padding-bottom: 100px;
+                    padding-top: 30px;
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,23 @@
+.darklight{
+    background: $black;
+    padding: 80px 0px;
+
+    .container{
+        
+        .content{
+            text-align: center;
+            padding-bottom: 40px;
+
+            h1{
+                display: inline;
+                color: $white;
+              
+            }
+        }
+
+        img{    
+           display: block;
+           margin: 1px auto;
+        }
+    }
+}

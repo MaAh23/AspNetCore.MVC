@@ -1,0 +1,27 @@
+﻿<section class="signin-form">
+    <div class="container">
+        <div class="form-box">
+            <h1>Welcome Back</h1>
+            <p>Don't have an account yet? <a asp-action="Index" asp-controller="Signup"> Sign up here.</a></p>
+
+            <form action="" method="post">
+                <div class="field-input">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" class="email" placeholder="Enter your email address">
+                </div>
+
+                <div class="field-input">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" class="password" placeholder="********">
+                </div>
+
+                <div class="field">
+                    <input type="checkbox">
+                    <label for="">Remember me</label>
+                </div>
+                <a class="btn-theme-s" href="Signin.html"><span>Sign in</span></a>
+                <a class="forget-password" href="#">Forget your password?</a>
+            </form>
+        </div>
+    </div>
+</section>

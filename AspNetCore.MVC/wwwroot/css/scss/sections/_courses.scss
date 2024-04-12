@@ -1,0 +1,41 @@
+.courses{
+    padding-top: 40px;
+    padding-bottom: 90px;
+
+    .container{
+        .tool-courses{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 22px;
+
+            .boxes{
+                border-radius: 11px;  
+                border: 1px solid $gray-300;
+                transition: all 0.15s ease-in-out;
+                @include shadow-m;
+
+                h4{
+                    padding: 10px 15px;
+                }
+                p{
+                    padding: 0px 15px;
+                }
+
+                img{
+                    border-radius: 10px 10px 0px 0px;
+                }
+
+                .money{
+                    color: $info;
+                    border-bottom:  1px solid $gray-200;
+                }
+
+
+                .thumb{
+                    padding-left: 25px;
+                }
+                
+            }
+        }
+    }
+}

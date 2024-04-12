@@ -1,0 +1,42 @@
+﻿<section class="signup-form">
+    <div class="container">
+        <div class="form-box">
+            <h1>Create Account</h1>
+            <p>Already have an account? <a asp-action="Index" asp-controller="Signin"> Sign in here.</a></p>
+
+            <form action="" method="post">
+                <div class="field-input1">
+                    <div>
+                        <label for="firsname">First name</label>
+                        <input type="text" name="firsname" class="firstname" placeholder="Enter your first name">
+                    </div>
+                    <div>
+                        <label for="lastname">Last name</label>
+                        <input type="text" name="lastname" class="lastname" placeholder="Enter your last name">
+                    </div>
+                </div>
+
+                <div class="field-input">
+                    <label for="email">Email address</label>
+                    <input type="text" name="email" class="email" placeholder="Enter your email address">
+                </div>
+
+                <div class="field-input">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" class="password" placeholder="********">
+                </div>
+
+                <div class="field-input">
+                    <label for="confirm">Email address</label>
+                    <input type="password" name="confirm" class="confirm" placeholder="********">
+                </div>
+
+                <div class="field">
+                    <input type="checkbox">
+                    <label for="">I agree to the <a href="#">Terms</a> & <a href="#">Conditions</a></label>
+                </div>
+                <a class="btn-theme-s" href="#"><span>Sign up</span></a>
+            </form>
+        </div>
+    </div>
+</section>

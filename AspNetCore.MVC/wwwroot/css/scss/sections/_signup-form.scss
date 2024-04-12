@@ -1,0 +1,67 @@
+.signup-form{
+    padding-bottom: 90px;
+ 
+     .container{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         min-height: 60vh;
+ 
+         .form-box{
+             display: flex;
+             flex-direction: column;
+             padding: 25px 25px;
+             width: 50%;
+            
+             p{
+                 padding-bottom: 10px;
+                 
+             }
+             label{
+                color: $black;
+             }
+
+
+             .field-input1{
+                display: flex;
+                gap: 20px;
+                padding-bottom: 20px;
+
+                input{
+                    height: 40px;
+                    width: 100%;
+                    border: 1px solid $gray-500;
+                    border-radius: 5px;
+                    padding: 5px 10px;
+                }
+             }
+ 
+             .field-input{
+                 display: flex;
+                 flex-direction: column;
+                 margin-bottom: 20px;
+             
+ 
+                 input{
+                     height: 40px;
+                     width: 100%;
+                     border: 1px solid $gray-500;
+                     border-radius: 5px;
+                     padding: 5px 10px;
+                 }
+             }
+             .field{
+                 padding-bottom: 10px;
+             }
+ 
+             #forget-password{
+                 display: flex;
+                justify-content: center;
+                padding-top: 20px;
+                 
+             }
+            
+         }
+ 
+     }
+ }

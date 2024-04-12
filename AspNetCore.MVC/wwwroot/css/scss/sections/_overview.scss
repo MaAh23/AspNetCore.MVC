@@ -1,0 +1,42 @@
+.overview{
+    position: relative;
+    padding: 60px 0px;
+
+
+    @include lg{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 0px;
+    }
+
+    img {
+        position: relative;
+        z-index: -1;
+        width: 55%;
+    }
+
+    .container{
+        display: flex;
+        gap: 90px;
+        .content-1{
+            padding-top: 80px;
+
+            p{
+                @include text-m;
+            }
+
+            i{
+                color: $info;
+                padding-right: 5px;
+            }
+
+            .btn-theme{
+                display: inline-block;
+                margin-top: 20px;
+            }
+        }
+
+    }
+
+
+}

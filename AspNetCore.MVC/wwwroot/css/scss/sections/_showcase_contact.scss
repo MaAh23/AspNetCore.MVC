@@ -1,0 +1,38 @@
+.showcase-contact{
+   
+    .container{
+        .nav{
+            align-items: center;
+            gap: 10px;
+           
+            a{
+                text-decoration: none;
+                color: $black;
+            }
+        }
+
+        .courses-content{
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h1 {
+                @include h1;
+            }
+            
+            .search-boxes{
+                input{
+                    align-items: center;
+                    border: 1px solid $gray-400;
+                    border-radius: 5px;
+                    font-size: 12px;
+                    padding: 4px 29px;
+                    margin-left: 12px;
+                }
+
+                
+            }
+        }
+    }
+}
