@@ -10,42 +10,13 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <a class="logo" asp-action="Index" asp-controller="Home"><img src="images/silicon-logo.svg" alt=""></a>
-            <div class="menu">
-                <nav>
-                    <a class="menu-link" href="#showcase">Showcase</a>
-                    <a class="menu-link" href="#features">Features</a>
-                    <a class="menu-link" asp-action="Index" asp-controller="Contact">Contact</a>
-                </nav>
-            </div>
-            <div class="btn-switch">
-                <label>Light</label>
-                <label class="Switch" for="switch-mode">
-                    <input type="checkbox" class="switch-mode" />
-                    <span class="slider round"></span>
-                </label>
-                <label>Dark</label>
-            </div>
-            <div class="account-buttons">
-                <a class="btn-gray" asp-action="Index" asp-controller="Signin"><i class="fa-solid fa-right-to-bracket"></i><span>Sign in</span></a>
-                <a class="btn-theme" asp-action="Index" asp-controller="Signup"><i class="fa-solid fa-user"></i><span>Sign up</span></a>
-            </div>
-        </div>
+        <partial name="~/Views/Shared/Sections/_HeaderPartial.cshtml" />
     </header>
     <main>
         @RenderBody()
     </main>
     <footer>
-        <div class="container">
-            <div class="social-media">
-                <img src="images/social1.svg" alt="">
-                <img src="images/social2.svg" alt="">
-                <img src="images/social3.svg" alt="">
-                <img src="images/social4.svg" alt="">
-            </div>
-            <p>© 2024 Silicon. All rights reserved. Pulvinar urna condimentum amet tempor, ornare integer. Lorem odio justo malesuada suspendisse viverra aliquet quisque turpis non. Feugiat in odio non nunc ornare consectetur.</p>
-        </div>
+        <partial name="~/Views/Shared/Sections/_FooterPartial.cshtml" />
     </footer>
 
 
